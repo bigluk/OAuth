@@ -1,0 +1,5 @@
+/Users/luciano/Desktop/oauth/src/main/java/com/luciano/oauth/OauthApplication.java
+/Users/luciano/Desktop/oauth/src/main/java/com/luciano/oauth/controller/HelloWorld.java
+/Users/luciano/Desktop/oauth/src/main/java/com/luciano/oauth/entity/UserAuthentication.java
+/Users/luciano/Desktop/oauth/src/main/java/com/luciano/oauth/repository/UserAuthenticationRepository.java
+/Users/luciano/Desktop/oauth/src/main/java/com/luciano/oauth/security/SecurityConfig.java

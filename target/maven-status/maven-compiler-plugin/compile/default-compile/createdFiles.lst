@@ -1,0 +1,5 @@
+com/luciano/oauth/security/SecurityConfig.class
+com/luciano/oauth/controller/HelloWorld.class
+com/luciano/oauth/entity/UserAuthentication.class
+com/luciano/oauth/OauthApplication.class
+com/luciano/oauth/repository/UserAuthenticationRepository.class
