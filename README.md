@@ -5,7 +5,7 @@ Authentication is the process of verifying a principal’s identity against what
 
 Authorization refers to the process of granting authority (typically the roles) to an authenticated principal and allowing access to particular secured resources. Authorization is always performed after the authentication process.
 
-metti slide 3
+<img width="828" alt="slide 3" src="https://github.com/user-attachments/assets/51c8e834-055a-477f-8b6c-a88dea52c08c">
 
 
 ## How Spring without Spring Security works
