@@ -18,7 +18,7 @@ Whenever we expose REST endpoints in Spring Boot, all the incoming requests are 
 To enable Spring security we have to just add the spring security dependency to the pom.xml.
 Once we add the spring security dependency in the pom, during application startup, Spring registers a Filter named DelegatingFilterProxy. This bean will intercept every requests direct to and from the DispatcherServelet and apply on them a concatenantion of filter logic. It is here that authentication and authorization takes place.
 
-metti slide 2
+<img width="880" alt="slide 2" src="https://github.com/user-attachments/assets/5bca5e43-a552-4110-8981-842616c8003e">
 
 In other words, we can see the DelegatingFilterProxy as a "customs" that analize every request. If the request satisfy all the requirements, described with the filter chain, the DelegatingFilterProxy let the request pass to the DispatcherServelet. The following picture describe percfectly how the filter chain is composed: the pre-process and post-process filters and all the security filters configured in the DelegatingFilterProxy.
 
