@@ -12,7 +12,7 @@ metti slide 3
 Whenever we expose REST endpoints in Spring Boot, all the incoming requests are always first intercepted by the DispatcherServlet. The DispatcherServlet is the front controller in Spring web applications. The core responsibility of a DispatcherServlet is to dispatch incoming HttpRequests to the correct handlers.
 
 
-metti slide 1
+<img width="945" alt="slide 1" src="https://github.com/user-attachments/assets/feab6b56-e00a-4bb8-8192-3f20441c9c15">
 
 ## How Spring with Spring Security works
 To enable Spring security we have to just add the spring security dependency to the pom.xml.
