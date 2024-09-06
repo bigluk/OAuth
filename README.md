@@ -31,7 +31,7 @@ Strictly speaking, Spring security is based on Servlet Filters. The core task of
 ## How the authentication process works
 The following diagrams demonstrate how the authentication flow happens at a high level:
 
-metti slide 5
+<img width="933" alt="slide 5" src="https://github.com/user-attachments/assets/cb121ac8-2dda-47a8-949c-4619e32c1502">
 
 Let's see each components in detail:
 
@@ -106,7 +106,7 @@ The sample code above does the following:
 
 
 [!NOTE]
-	Instead of implementing Filter, you can extend from OncePerRequestFilter which is a base class for filters that are only invoked once per request and provides a doFilterInternal method with the HttpServletRequest and HttpServletResponse parameters.
+Instead of implementing Filter, you can extend from OncePerRequestFilter which is a base class for filters that are only invoked once per request and provides a doFilterInternal method with the HttpServletRequest and HttpServletResponse parameters.
 
 Now, we need to add the filter to the security filter chain.
 
