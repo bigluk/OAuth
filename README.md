@@ -22,8 +22,7 @@ Once we add the spring security dependency in the pom, during application startu
 
 In other words, we can see the DelegatingFilterProxy as a "customs" that analize every request. If the request satisfy all the requirements, described with the filter chain, the DelegatingFilterProxy let the request pass to the DispatcherServelet. The following picture describe percfectly how the filter chain is composed: the pre-process and post-process filters and all the security filters configured in the DelegatingFilterProxy.
 
-
-metti slide 4
+<img width="828" alt="slide 4" src="https://github.com/user-attachments/assets/7a4987ea-df2f-4a0a-bc20-47debd876eda">
 
 
 Strictly speaking, Spring security is based on Servlet Filters. The core task of a Filter is to pre-process and post-process certain actions when a request is sent to a Servlet for actual request processing. The power of Spring is that we can customize this process as we want.
